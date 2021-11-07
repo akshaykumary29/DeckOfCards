@@ -2,6 +2,9 @@ package com.brigelabz;
 
 /**
  * Deck Of Cards
+ *
+ * @author Akshay
+ * @version 1.8
  */
 public class DeckOfCards {
     public static void main(String[] args) {
@@ -27,6 +30,7 @@ public class DeckOfCards {
             deck[i] = temp;
         }
 
+
         // print shuffled deck
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 9; j++) {
@@ -34,6 +38,7 @@ public class DeckOfCards {
             }
         }
 
+        // display cards
         for (int i = 0; i < array.length; i++) {
             System.out.println("Player:" + (i + 1));
             for (int j = 0; j < 9; j++) {
